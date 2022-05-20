@@ -42,11 +42,11 @@ int number = InputN(9);
 
 if (number == IntRevers(number))
 {
-    Console.WriteLine("Да");
+    Console.WriteLine($"Да, число {number} палиндром.");
 }
 else
 {
-    Console.WriteLine("Нет");
+    Console.WriteLine($"Нет,число {number} не палиндром.");
 }
 
 
